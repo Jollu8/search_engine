@@ -28,11 +28,11 @@ int main(int argc, char *argv[]) {
             return 1;
         };
         const std::string_view PATH = argv[3];
-        std::cout << "If you want to save result to answer.json enter Y :" << std::endl;
+        std::cout << "If you want to save result to answer.json enter Y:\n or press any key for to print console:" << std::endl;
         char ch;
         std::cin >> ch;
         std::string answerJSON;
-        if (ch == 'Y') answerJSON = "./answerJSON";
+        if (ch == 'Y') answerJSON = "./answerJSON.json";
 
         // Start Commands
         CommandHandler commandHandler(WORD, MAPS.find(argv[2])->second, PATH);
