@@ -4,6 +4,8 @@ include(FetchContent)
 project(finderSkillBox)
 
 set(CMAKE_CXX_STANDARD 20)
+find_package(TBB REQUIRED)
+
 
 
 
@@ -16,4 +18,4 @@ FetchContent_Declare(json
 FetchContent_MakeAvailable(json)
 
 add_executable(finderSkillBox main.cpp)
-target_link_libraries(finderSkillBox PRIVATE nlohmann_json::nlohmann_json)
+target_link_libraries(finderSkillBox PRIVATE nlohmann_json::nlohmann_json PRIVATE TBB::tbb)

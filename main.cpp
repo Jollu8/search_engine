@@ -3,8 +3,8 @@
 #include <string_view>
 #include <map>
 
-#include "CommandHandler.h"
-#include "FinderTXT.h"
+#include "utilites/CommandHandler.h"
+#include "formats/FinderTXT.h"
 
 
 const std::map<std::string, Extensions> MAPS{
@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
             return 1;
         };
         const std::string_view PATH = argv[3];
-        std::cout << "If you want to save result to answer.json enter Y:\n or press any key for to print console:" << std::endl;
+        std::cout << "If you want to save result to answer.json enter Y:\n or press any key for to print console:\n>";
         char ch;
         std::cin >> ch;
         std::string answerJSON;
@@ -38,6 +38,10 @@ int main(int argc, char *argv[]) {
         CommandHandler commandHandler(WORD, MAPS.find(argv[2])->second, PATH);
 
         commandHandler.start(answerJSON);
+        if(!answerJSON.empty())
+            std::cout << "Done" << std::endl;
+
+
 
 
     }

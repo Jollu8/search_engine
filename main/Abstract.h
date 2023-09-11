@@ -4,13 +4,16 @@
 
 #pragma once
 
-#include "Answer.h"
+#include "../utilites/Answer.h"
 
 
 class Abstract {
 public:
     virtual ~Abstract() {}
 
-    virtual Answer sent_answer() = 0;
+    virtual Answer sent_answer_to_convert_JSON() = 0;
+
+#ifdef NDEBUG
     virtual  void print() const = 0;
+#endif
 };

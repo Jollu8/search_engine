@@ -12,8 +12,8 @@
 #include <chrono>
 #include <execution>
 
-#include "Abstract.h"
-#include "Answer.h"
+#include "../main/Abstract.h"
+#include "../utilites/Answer.h"
 
 
 class FinderTXT : public Abstract {
@@ -56,9 +56,11 @@ public:
 
 
     // Ending job
-    Answer sent_answer() override {
+    Answer sent_answer_to_convert_JSON() override {
         return answer_;
     }
+
+#ifdef NDEBUG
     void print()const override  {
 
         std::cout << "File : " << answer_.fileName << " result : " << answer_.result << " found : " << answer_.count <<std::endl;
@@ -66,6 +68,7 @@ public:
 //            std::cout << words_[i] << "\n";
 //        }
     }
+#endif
 
 
 };

@@ -14,7 +14,7 @@
 #include <filesystem>
 #include <string_view>
 
-#include "FinderTXT.h"
+#include "../formats/FinderTXT.h"
 #include "SearchEngine.h"
 
 enum class Extensions {
