@@ -1,0 +1,5 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja -S /Users/jolluemil/Desktop/cpptasks/search_engine -B /Users/jolluemil/Desktop/cpptasks/search_engine/cmake-build-release
+-- Using the single-header code from /Users/jolluemil/Desktop/cpptasks/search_engine/cmake-build-release/_deps/json-src/single_include/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/jolluemil/Desktop/cpptasks/search_engine/cmake-build-release

@@ -1,0 +1,5 @@
+/Users/jolluemil/Desktop/cpptasks/search_engine/cmake-build-release/CMakeFiles/finderSkillBox.dir
+/Users/jolluemil/Desktop/cpptasks/search_engine/cmake-build-release/CMakeFiles/edit_cache.dir
+/Users/jolluemil/Desktop/cpptasks/search_engine/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/Users/jolluemil/Desktop/cpptasks/search_engine/cmake-build-release/_deps/json-build/CMakeFiles/edit_cache.dir
+/Users/jolluemil/Desktop/cpptasks/search_engine/cmake-build-release/_deps/json-build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,33 @@
+{
+    "/Users/jolluemil/Desktop/Cpptasks/search_engine/cmake-build-debug/CMakeCache.txt": {
+        "result": false
+    },
+    "/Users/jolluemil/Desktop/Cpptasks/search_engine/cmake-build-debug/words.txt": {
+        "finding": 1,
+        "result": true
+    },
+    "/Users/jolluemil/Desktop/Cpptasks/search_engine/cmake-build-debug/words1.txt": {
+        "finding": 4,
+        "result": true
+    },
+    "/Users/jolluemil/Desktop/Cpptasks/search_engine/cmake-build-debug/words2.txt": {
+        "finding": 4,
+        "result": true
+    },
+    "/Users/jolluemil/Desktop/Cpptasks/search_engine/cmake-build-debug/words3.txt": {
+        "finding": 12,
+        "result": true
+    },
+    "/Users/jolluemil/Desktop/Cpptasks/search_engine/cmake-build-debug/words4.txt": {
+        "finding": 12,
+        "result": true
+    },
+    "/Users/jolluemil/Desktop/Cpptasks/search_engine/cmake-build-debug/words5.txt": {
+        "finding": 12,
+        "result": true
+    },
+    "/Users/jolluemil/Desktop/Cpptasks/search_engine/cmake-build-debug/words6.txt": {
+        "finding": 12,
+        "result": true
+    }
+}
